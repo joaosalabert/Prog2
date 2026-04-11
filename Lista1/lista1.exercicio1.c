@@ -2,7 +2,7 @@
 
 int main(void){
     int seg;
-    printf("Digite um número inteiro em segundos: \n");
+    printf("Digite um número inteiro em segundos: ");
     scanf("%d", &seg);  //Recebe o número total em segundos.
     int h = seg/3600;   //Transforma no máximo de horas possível.
     int rh = seg%3600;  //Pega o que sobrou das horas transformadas.
